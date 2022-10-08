@@ -173,7 +173,7 @@ function calculateStudent(id) {
 
     if (tabStudent[id - 1].formDejaAffiche()) {
         let idStudent = document.getElementById("idStudent").innerHTML;
-        alert("idStudent : " + idStudent.length);
+        //alert("idStudent : " + idStudent.length);
         tabStudent[id - 1].lireForm();
         if (tabStudent[id - 1].validerForm()) {
             tabStudent[id - 1].calculerNotes();
